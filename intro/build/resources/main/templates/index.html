@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Hola</h1>
+<p th:text="${empleado.getNombre}"></p>
+<p th:text="${empleado.departamento}"></p>
+ID:<p th:text="${empleado.getId()}"></p>
+<p th:text="${empleado.fechaNacimiento}"></p>
+$<p th:text="${empleado.getSueldo()}"></p>
+
+</body>
+</html>
